@@ -1,0 +1,111 @@
+Nashville Neighborhood Growth & Property Value Change Analysis
+Capstone Project – Data Analytics Cohort 16
+Overview
+This project analyzes how Nashville neighborhoods have changed over time across four major dimensions:
+
+Development activity (new construction, renovations, additions)
+
+Demolition pressure
+
+Property value changes
+
+Zoning and land‑use patterns
+
+The goal is to identify which neighborhoods are transforming the fastest and how development intensity relates to changes in property values and built environment characteristics.
+
+This project blends Python for data cleaning and feature engineering with Power BI for interactive visualization.
+
+
+Core Questions
+1. Which neighborhoods have seen the fastest growth in new construction?
+
+2. Where is demolition activity concentrated, and how does it relate to redevelopment?
+
+3. How have property values changed across neighborhoods over time?
+
+4. How does zoning influence development intensity?
+
+5. Which neighborhoods show the strongest signs of transformation overall?
+
+
+Datasets
+All datasets come from the Nashville Open Data Portal and the Tennessee Department of Safety:
+
+Development & Land Use
+Building Permits
+
+Demolition Permits
+
+Zoning Layers
+
+Land Use
+
+Neighborhood Boundaries
+
+Property Values
+Property Assessments (land value, building value, total value)
+
+Additional Context
+Crash Data (fatal + serious injury)
+
+Used to explore whether high‑growth areas also experience increased traffic risk
+
+
+Methods
+Python (Jupyter Notebook)
+Clean and standardize datasets
+
+Convert dates, extract year/month
+
+Geospatial joins (permits → neighborhoods)
+
+Aggregate metrics by neighborhood and year
+
+Create derived features:
+
+Development Intensity Index
+
+Demolition Pressure Score
+
+Property Value Change %
+
+Zoning Density Mix
+
+
+Power BI
+Build interactive dashboards:
+
+Neighborhood development trends
+
+Demolition hotspots
+
+Property value changes
+
+Zoning and land‑use context
+
+Neighborhood Transformation Index (combined metric)
+
+
+Deliverables
+Python Notebook (cleaning, merging, feature engineering, analysis)
+
+Power BI Dashboard (interactive insights)
+
+Executive Summary (key findings + recommendations)
+
+Final Presentation (story-driven walkthrough of results)
+
+
+Why This Project Matters
+Nashville is one of the fastest‑growing cities in the U.S. Understanding how neighborhoods evolve helps:
+
+Residents track changes in their communities
+
+Planners identify areas under redevelopment pressure
+
+Policymakers evaluate zoning and infrastructure needs
+
+Analysts understand the relationship between growth and property values
+
+This project provides a data‑driven view of how the city is changing and which neighborhoods are experiencing the most significant transformation.
+
